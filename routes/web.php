@@ -29,6 +29,7 @@ Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 route::group(['middleware' => ['auth']], function () {
     //Route Dashboard
     Route::get('/', [DashboardController::class, 'index']);
+    // Route::get('/', [DashboardController::class, 'index']);
 
 
     //CRUD untuk Buku

@@ -3,7 +3,7 @@
         <div class="card mb-4 bg-light">
             <div class="card-body">
             <div class="panel panel-default">
-                <div class="panel-heading text-center"><p class="fs-4 fw-bold">Grafik Perbandingan Berdasarkan Status</p></div>
+                <div class="panel-heading text-center"><p class="fs-4 fw-bold">Berikut Grafik Perbandingan Berdasarkan Status</p></div>
                 <div class="panel-body">
                     <canvas id="barChart" class="p-5"></canvas>
                 </div>
@@ -16,7 +16,7 @@
         <div class="card mb-4 bg-light">
             <div class="card-body">
                 <div class="panel panel-default">
-                    <div class="panel-heading text-center"><p class="fs-4 fw-bold">Grafik Performa Peminjaman bulan Ini</p></div>
+                    <div class="panel-heading text-center"><p class="fs-4 fw-bold">Berikut Grafik Performa Peminjaman bulan Ini</p></div>
                     <div class="panel-body">
                         <canvas id="chartPerformance" class="p-5"></canvas>
                     </div>
