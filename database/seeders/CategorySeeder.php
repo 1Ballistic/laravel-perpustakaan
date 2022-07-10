@@ -30,5 +30,9 @@ class CategorySeeder extends Seeder
             "name" => "Fashion"
         ]       
         );
+        Category::create([
+            "name" => "Teknologi"
+        ]       
+        );
     }
 }

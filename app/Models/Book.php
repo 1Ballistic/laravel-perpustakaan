@@ -27,4 +27,7 @@ class Book extends Model
     public function publisher(){
         return $this->belongsTo(Publisher::class);
     }
+    // public function publisher(){
+    //     return $this->belongsTo(Publisher::class);
+    // }
 }

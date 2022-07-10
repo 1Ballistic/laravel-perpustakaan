@@ -24,5 +24,15 @@ class BookSeeder extends Seeder
             
         ]       
         );
+        Book::create([
+            "category_id" => "2",
+            "title" => "Programer Zaman Now",
+            "author_id" => "1",
+            "publisher_id" => "1",
+            "year" => "2010",
+            "stock" => "80",
+            
+        ]       
+        );
     }
 }

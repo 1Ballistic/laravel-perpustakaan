@@ -16,7 +16,21 @@ class MemberSeeder extends Seeder
     {
         Member::create([
             "unique_num" => "560",
-            "name" => "John Cena",
+            "name" => "Yayang Risky",
+            "phone" => "089898989877",
+            "address" => "afdadsfdasfad",
+        ]       
+        );
+        Member::create([
+            "unique_num" => "200",
+            "name" => "Ari Irfansyah",
+            "phone" => "089898989877",
+            "address" => "afdadsfdasfad",
+        ]       
+        );
+        Member::create([
+            "unique_num" => "300",
+            "name" => "M. Vicky Rizki",
             "phone" => "089898989877",
             "address" => "afdadsfdasfad",
         ]       
