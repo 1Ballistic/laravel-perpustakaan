@@ -9,12 +9,12 @@
             <div class="col-md-8">
                 <input type="hidden" name='id' id='id' value="{{ $book->id }}">
                 <div class="mb-3">
-                    <label for="title" class="form-label">Judul</label>
+                    <label for="title" class="form-label">Judul Buku</label>
                     <input type="text" required class="form-control" id="title" name="title"
                         placeholder="Judul Buku...." value="{{ $book->title }}">
                 </div>
                 <div class="mb-3">
-                    <label for="category_id" class="form-label">Kategori</label>
+                    <label for="category_id" class="form-label">Kategori Buku</label>
                     <select class="form-select" name="category_id" id="category_id">
                         @foreach($categories as $key => $value)
                             <option value="{{ $value->id }}" @if($value->id == $book->category_id) echo selected
@@ -23,7 +23,7 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="author" class="form-label">Pengarang</label>
+                    <label for="author" class="form-label">Nama Pengarang</label>
                     <input type="text" required class="form-control" id="author" name="author"
                         placeholder="Pengarang...." value="{{ $book->author->name }}">
                 </div>
@@ -42,7 +42,7 @@
                     <input type="text" required class="form-control" id="number" name="stock" placeholder="Stok...."
                         value="{{ $book->stock }}">
                 </div>
-                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                <button type="submit" class="btn btn-primary mb-3">Tambah Data</button>
             </div>
         </div>
     </form>

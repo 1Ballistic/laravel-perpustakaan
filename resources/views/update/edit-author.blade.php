@@ -18,7 +18,7 @@
                     <input type="date" required class="form-control" id="born_date" name="born_date"
                         value="{{ $data->born_date }}">
                 </div>
-                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                <button type="submit" class="btn btn-primary mb-3">Tambah</button>
             </div>
         </div>
     </form>
