@@ -13,7 +13,7 @@
                     <input type="text" required class="form-control" id="name" name="name"
                         placeholder="Nama Kategori...." value="{{ $data->name }}">
                 </div>
-                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                <button type="submit" class="btn btn-primary mb-3">Edit Data</button>
             </div>
         </div>
     </form>

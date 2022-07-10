@@ -14,7 +14,7 @@
                         placeholder="Nama Penerbit...." value="{{ $data->name }}">
                 </div>
                 <div class="mb-3">
-                    <label for="address" class="form-label">Alamat</label>
+                    <label for="address" class="form-label">Alamat Penerbit</label>
                     <textarea class="form-control" name="address" id="address" cols="30" rows="5"
                         placeholder="Alamat Penerbit....">{{ $data->address }}</textarea>
                 </div>
@@ -23,7 +23,7 @@
                     <input type="email" required class="form-control" id="email" name="email"
                         placeholder="Email Penerbit...." value="{{ $data->email }}">
                 </div>
-                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                <button type="submit" class="btn btn-primary mb-3">Edit Data</button>
             </div>
         </div>
     </form>

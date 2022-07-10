@@ -2,7 +2,7 @@
 @section('main')
 <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <p class="fs-1">{{ $title }}</p>
-        <p class="fs-6 text-muted">Silahkan isi form berikut untuk menammbahkan buku!</p>
+        <p class="fs-6 text-muted">Silahkan isi form berikut untuk menambahkan buku!</p>
         <form action="#" method="POST">
         @csrf
             <div class="row">
@@ -17,7 +17,7 @@
                         <input type="text" required class="form-control" id="judul" name="judul"
                             placeholder="Judul Buku....">
                     </div>
-                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-3">Edit Data</button>
                 </div>
             </div>
         </form>

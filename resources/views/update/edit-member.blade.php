@@ -10,7 +10,7 @@
                 <div class="col-md-8">
                     <input type="hidden" name='id' id='id' value="{{ $member->id }}">
                     <div class="mb-3">
-                        <label for="unique_num" class="form-label">Nomor Unik</label>
+                        <label for="unique_num" class="form-label">Nomor Anggota</label>
                         <input type="text" name="unique_num" class="form-control" id="number" required
                             placeholder="1811082017" value="{{ $member->unique_num }}">
                     </div>
@@ -29,7 +29,7 @@
                         <textarea name="address" id="address" cols="30" rows="5"
                             class='form-control'>{{ $member->address }}</textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-3">Edit Data</button>
                 </div>
             </div>
         </form>

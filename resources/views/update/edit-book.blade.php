@@ -42,7 +42,7 @@
                     <input type="text" required class="form-control" id="number" name="stock" placeholder="Stok...."
                         value="{{ $book->stock }}">
                 </div>
-                <button type="submit" class="btn btn-primary mb-3">Tambah Data</button>
+                <button type="submit" class="btn btn-primary mb-3">Edit Data</button>
             </div>
         </div>
     </form>

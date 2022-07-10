@@ -28,7 +28,7 @@
                     <input type="date" required class="form-control" id="return_date" name="return_date"
                         value="{{ $borrow->return_date }}">
                 </div>
-                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                <button type="submit" class="btn btn-primary mb-3">Edit Data</button>
             </div>
         </div>
     </form>
