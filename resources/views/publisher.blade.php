@@ -21,7 +21,7 @@
         <div class="col-md-5 text-end">
             <button class="btn btn-primary"><a class="text-decoration-none text-light"
                     href="{{ route('addPublisher') }}"><i class="fa fa-plus"></i>
-                    Tambah</a></button>
+                    Tambah Data</a></button>
         </div>
     </div>
     <div class="row">
