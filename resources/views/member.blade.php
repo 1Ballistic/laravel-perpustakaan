@@ -19,7 +19,7 @@
         </div>
         <div class="col-md-8 text-end">
             <button class="btn btn-primary"><a class="text-decoration-none text-light"
-                    href="{{ route('addMember') }}"><i class="fa fa-plus"></i> Tambah</a></button>
+                    href="{{ route('addMember') }}"><i class="fa fa-plus"></i> Tambah Data</a></button>
         </div>
     </div>
     <br>
