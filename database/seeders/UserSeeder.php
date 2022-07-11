@@ -16,16 +16,31 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            "name" => "John Withney",
-            "username" => "JohnWithney15",
+            "name" => "Yayang Riski",
+            "username" => "yayangrisky",
             "password" => bcrypt('12345')
         ]       
         );
 
         User::create([
-                "name" => "Rafiq Mulia Putra",
-                "username" => "rafiqrafiq",
+                "name" => "ari irfansyah",
+                "username" => "ariirfansyah",
                 "password" => bcrypt('12345')
         ]);
+        User::create([
+            "name" => "gian arci",
+            "username" => "gianarci",
+            "password" => bcrypt('12345')
+    ]);
+    User::create([
+        "name" => "arsana dewanto",
+        "username" => "arsanadewanto",
+        "password" => bcrypt('12345')
+]);
+User::create([
+    "name" => "viki riski",
+    "username" => "vikiriski",
+    "password" => bcrypt('12345')
+]);
     }
 }

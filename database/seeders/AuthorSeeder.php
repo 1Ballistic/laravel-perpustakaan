@@ -15,8 +15,8 @@ class AuthorSeeder extends Seeder
     public function run()
     {
         Author::create([
-            "name" => "Tere Liye",
-            "born_date" => "1998-04-21",
+            "name" => "yayangrisky",
+            "born_date" => "2000-04-11",
         ]       
         );
     }
