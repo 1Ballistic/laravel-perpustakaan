@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class, 
             PublisherSeeder::class,
             CategorySeeder::class,
-            BorrowSeeder::class,
+            // BorrowSeeder::class,
             AuthorSeeder::class,
             MemberSeeder::class,
             BookSeeder::class,
