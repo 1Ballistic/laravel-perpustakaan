@@ -14,14 +14,14 @@ class BorrowSeeder extends Seeder
      */
     public function run()
     {
-        Borrow::create([
-            "member_id" => "1",
-            "book_id" => "1",
-            "borrow_date" => "2021-08-05",
-            "return_date" => "2021-08-12",
-            "fine" => "0",
-            "status" => "0"
-        ]       
-        );
+        // Borrow::create([
+        //     "member_id" => "1",
+        //     "book_id" => "1",
+        //     "borrow_date" => "2021-08-05",
+        //     "return_date" => "2021-08-12",
+        //     "fine" => "0",
+        //     "status" => "0"
+        // ]       
+        // );
     }
 }
