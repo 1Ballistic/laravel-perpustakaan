@@ -21,19 +21,5 @@ class MemberSeeder extends Seeder
             "address" => "afdadsfdasfad",
         ]       
         );
-        Member::create([
-            "unique_num" => "200",
-            "name" => "Ari Irfansyah",
-            "phone" => "089898989877",
-            "address" => "afdadsfdasfad",
-        ]       
-        );
-        Member::create([
-            "unique_num" => "300",
-            "name" => "M. Vicky Rizki",
-            "phone" => "089898989877",
-            "address" => "afdadsfdasfad",
-        ]       
-        );
     }
 }
