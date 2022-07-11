@@ -16,21 +16,11 @@ class BookSeeder extends Seeder
     {
         Book::create([
             "category_id" => "1",
-            "title" => "Kelinci dan Kura-kura",
+            "title" => "Cara ampuh menaklukan Dunia",
             "author_id" => "1",
             "publisher_id" => "1",
             "year" => "2006",
             "stock" => "50",
-            
-        ]       
-        );
-        Book::create([
-            "category_id" => "2",
-            "title" => "cara menaklukan dunia",
-            "author_id" => "2",
-            "publisher_id" => "2",
-            "year" => "2009",
-            "stock" => "35",
             
         ]       
         );
